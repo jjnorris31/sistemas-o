@@ -26,3 +26,11 @@ git
 
 4) Interrupciones vía software (trap)
 + Software comunicar con el kernel, SF->CPU->KERNEL
+
+## Qué aprendí
+
+
+
+## URL del commit:
+
+https://github.com/jjnorris31/sistemas-o/commit/c0689cdfbfdbe99b7bbb439222b66656fe8ceb4f
