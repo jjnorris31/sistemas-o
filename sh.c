@@ -176,7 +176,9 @@ main(void)
       runcmd(parsecmd(buf));
 	// Codigo actualizar prevBuf
 	i = 0;
-	while(prevBuf[i] = buf[i++]);
+	for(i = 0; i < 100; i++){
+		prevBuf[i] = buf[i];
+	}
     wait();
 	}
   }

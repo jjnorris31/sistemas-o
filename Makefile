@@ -183,6 +183,8 @@ UPROGS=\
 	_zombie\
 	_apagar\
 	_reinit\
+	_chpriority\
+	_lspriority\
 
 fs.img: mkfs README $(UPROGS)
 	./mkfs fs.img README $(UPROGS)
