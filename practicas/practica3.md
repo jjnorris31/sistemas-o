@@ -13,6 +13,11 @@
  + Estados de un proceso
  
 # Qué aprendi
++ Como UNIX maneja a los estados que fueron terminados y los manda a un estado zombie hasta que se llame a wait()
++ Conocer el PCB y aprender que este es el que contiene toda la información asignada a cada proceso.
++ Conocer a profundidad el cambio de contexto y todo lo que hace el SO para que este sea posible.
++ 
  
  
 # URL del commit
+https://github.com/jjnorris31/sistemas-o/commit/43942e8efd19cb296bb9449050ecf3c4ad915c61
