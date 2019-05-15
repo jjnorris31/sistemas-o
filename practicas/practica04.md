@@ -33,4 +33,6 @@ Utilizando información de la guía de Unix IPC de Beej's logramos modificar cie
 Para efectos de la práctica también vimos de qué va la memoria compartida y esto sirve para que los procesos vivan de alguna manera en una zona de memoria en común y de esta manera puedan pasarse datos de manera directa o bien, para comunicarse. Esto se logra obteniendo la key y todos los procesos que compartan esta estarán en la misma zona de memoria. 
 
 # URL del commit
+
+https://github.com/jjnorris31/sistemas-o/blob/master/ipc/signal.c
 https://github.com/jjnorris31/sistemas-o/commit/ebaaa03e3e0d6a620d34d2f9f40f731023674e5f
