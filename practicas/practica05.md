@@ -9,7 +9,7 @@ Hacer un spike sobre hilos, semáforos y locks.
 
 + Hilos
   + Es un proceso ligero que solo consta de un stack. Y el código y el heap los comparte con el proceso principal.
-  + Pueden ejecutar funcions diferentes.
+  + Pueden ejecutar funciones diferentes.
   
 + Semáforos:
   + Es una variable global
@@ -25,6 +25,12 @@ Hacer un spike sobre hilos, semáforos y locks.
     ++ unlock (desbloquea) liberar el lock.
   + Secciones críticas
   
- # URL del commit:
- 
  # Qué aprendí:
+ Para ejecutar varias cosas a la vez la opción más racional es crear un hilo, podemos crear la cantidad de hilos que queramos y una de las grandes ventajas de esto es que si por alguna razón un hilo modifica una variable todos los demás verán este cambio.
+ 
+ Para evitar que dos hilos modifiquen la misma estructura se hizo el uso de un semáforo que es el encargado de dar acceso a un determinado recurso a sólo un proceso a la vez y se lo niega a los demás hasta que termine de usarse. 
+ 
+ También noté que los hilos son mucho más ligeros que un proceso completo pero su programación suele ser más complicada y en ciertos aspectos bastante extraña. 
+
+ # URL del commit:
+ https://github.com/jjnorris31/sistemas-o/commit/6771a6de25adcae0fc9dd925a37ebed317f47221
